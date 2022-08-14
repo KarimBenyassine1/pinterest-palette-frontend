@@ -1,0 +1,30 @@
+.color-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 10px 3px 50px 3px;
+}
+
+.color-text{
+    font-family: AppleGothic;
+    font-size: 23px;
+    text-align: center;
+    display: none
+}
+
+.hex-text{
+    display: none;
+}
+
+.color-container:hover .color-text{
+    display: block
+}
+
+.color-container:hover .hex-text{
+    display: block;
+    cursor: pointer
+}
